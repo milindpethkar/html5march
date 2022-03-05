@@ -1,0 +1,25 @@
+
+/* unvisited link */
+a:link{
+    color: aquamarine;
+}
+/* visited link */
+a:hover{
+    color: blueviolet;
+}
+/* mouse over link */
+a:active{
+    color: rgb(10, 14, 14);
+}
+/* selected link */
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+.vt1{
+    text-decoration: underline;
+}
+h1::before{
+    content: hello;
+    
+}

@@ -1,0 +1,22 @@
+/* @media screen (min-width: 40%) { */
+ /* padding: 400rem,100rem; */
+  /* div{ */
+    /* background-color: blueviolet; */
+  /* } */
+  
+div{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: hi;
+  animation-duration: 4s;
+}
+@keyframes hi{
+  from{background-color: aqua;top: 0px;}
+   to{background-color: red;top: 400px;}
+}
+@keyframes hi{
+  0%{background-color: red;left: 10px;top: 10px;}
+  
+}
